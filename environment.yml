@@ -1,0 +1,11 @@
+name: bronze-qiskit
+channels:
+  - defaults
+dependencies:
+  - pip>=20.3.3
+  - python>=3.11
+  - matplotlib
+  - pip:
+      - qiskit[visualization]>=1.0
+      - qiskit-aer==0.14.0.1
+      - jupyterlab
