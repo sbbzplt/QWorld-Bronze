@@ -37,5 +37,5 @@ def random_qstate(n):
 	state_vector = random_qstate_by_value()
 	next_states = [random_qstate_by_value() for _ in range(n-1)]
 	for i in range(n-1):
-			state_vector = np.kron(state_vector, next_states[i]) 
-	return state_vector
+		state_vector = np.kron(state_vector, next_states[i]) 
+	return list(state_vector)
