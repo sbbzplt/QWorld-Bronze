@@ -30,3 +30,12 @@ def angle_qstate(x,y):
     if y<0: angle_degree = 360-angle_degree # degree of the angle
 	# else degree of the angle is the same as degree of the angle with state |0>
     return angle_degree	
+
+# randomly create n-dimensional quantum state
+import numpy as np
+def random_qstate(n):
+	state_vector = random_qstate_by_value()
+	next_states = [random_qstate_by_value() for _ in range(n-1)]
+	for i in range(n-1):
+			state_vector = np.kron(state_vector, next_states[i]) 
+	return state_vector
