@@ -1,6 +1,6 @@
 ![](qworld/images/readme-logo.jpg)
 
-<a href="https://colab.research.google.com/github/MUFzk/COMP2083/blob/master/Start_here.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/sbbzplt/QWorld-Bronze/blob/master/content.ipynb" target="_blank">
 <img src="https://colab.research.google.com/assets/colab-badge.svg"/>
 </a>
 
