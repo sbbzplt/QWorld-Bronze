@@ -1,3 +1,5 @@
+Highly editted version of QWorld's Bronze material.
+
 ![](qworld/images/readme-logo.jpg)
 
 <a href="https://colab.research.google.com/github/sbbzplt/QWorld-Bronze/blob/master/content.ipynb" target="_blank">
